@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Restaurent Website</title>
+  </head>
+  <body style="background-color:white">
+    <style>
+    body{
+      border-right-style: solid;
+  border-left-style: solid;
+}
+</style
+    <h1>Contact Us</h1>
+    <nav class="navbar">
+        <ul>
+   <li><a href="home.html">Home</a></li>
+   <li><a href="about.html">About us</a></li>
+    <li><a href="menu.html"> Our Menu </a></li>
+    <li><a href="store hours.html">Store Hours</a></li>
+
+      </ul>
+    </nav>
+    <!--- Start Contact--->
+    <form action method="post">
+      <figure>
+      <img
+        src="Images/food.jpg"
+        alt="related food Image"
+        height="200px"
+        width="300px"
+      />
+      <figcaption>sprouts and nutrients</figcaption>
+      </figure>
+      <h2>Our Contact Form</h2>
+      <fieldset>
+        <legend>Send Us A Message</legend>
+      <p>
+        <label for="Name">Name</label>
+        <input
+          name="Name"
+          id="Name"
+          placeholder="Your Name"
+          autocomplete="on"
+          autofocus
+        />
+      </p>
+      <p>
+        <label for="phone">Enter your phone number:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+          required
+        />
+      </p>
+      <p>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="email" />
+      </p>
+  
+      <p>
+        <label for="message">Your Message :</label></p>
+        <textarea id="message" name="message" rows="10" cols="50" placeholder="Type your message here.."></textarea>
+      </fieldset>
+      <br />
+      <button type="send" value="send">Send</button>
+      <button type="reset" value="reset">Reset</button>
+    </form>
+    <h4> Our Location :</h4>
+    <address>
+      4-173, Geeta nagar<br />
+      Jeedimetla, Qutubullapur<br />
+      Hyderabad<br />
+      Pin:500055<br />
+      <br>
+      phone:<a href="number">555-555-5555</a>
+    </address>
+  </section>
+  <br>
+  
+    <a href="#top">Back to top</a>
+<!---Footer-->
+<footer>
+  <hr>
+  <p style="text-align: center">
+    ©Copyright 1996 by nobody. All rights reversed.
+  </p>
+</footer>
+<!--End of Footer-->
+  </body>
+</html>
+

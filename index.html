@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Restaurent Website</title>
+  </head>
+  <body style="background-color:white">
+    <style>
+      body{
+      border-right-style: solid;
+  border-left-style: solid;
+}
+      table,th,td{
+border: 1px solid;
+padding: 4px;
+        text-align: center;
+            height: 1px;
+            width:"100";
+        }
+            tr:hover{ background-color: chocolate};
+      </style>
+    <h1 style="text-align: center; color:black">Welcome to Leo Restaurent</h1>
+    <nav class="navbar">
+        <ul>
+   <li><a href="home.html">Home</a></li>
+    <li><a href="about.html"> About Us </a></li>
+    <li><a href="menu.html"> Our Menu </a></li>
+    <li><a href="store hours.html">Store Hours</a></li>
+<li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+    <figure>
+    <img src="Images/Biryani.jpg" alt="related to Biryani" height="200" width="300">
+    <figcaption>Spicy Biryani dishes</figcaption>
+    </figure>
+    <hr>
+    <section class="about">
+    <h1>About Leo Restaurent</h1>
+    <p>Restaurent is situated in Hyderabad and founded in 2002.The perfect Italian restaurent in hyderabad. The taste is delicious and spicy.You can get in market</p>
+    <h4>Leo restaurent</h4>
+    <details>
+    <summary >When did Biryani dishes started in this restaurent?"</summary>
+      <p>we offered various Biryani dishes from 2012 in this restaurent.</p>
+    </details>
+    </section>
+    <hr>
+    <section class="menu">
+      <h1>Our Menu </h1>
+      <!--- menu started-->
+      <table>
+        <tr>
+        <th colspan="3"><h3>Our Food Menu</h3></th></tr>
+        <tr><th>Food Items</br></th>
+            <th>Quantity</th>
+            <th>Price</th>
+                    </tr>
+                    <tr><td rowspan="3">Pizza</td><td>1</td><td>&#8377;100</td><br>
+                        <tr><td>2</td><td>&#8377;180</td></tr><br>
+                        <tr><td>3</td><td>&#8377;250</td></tr><br>
+                    <tr><td rowspan="3">Burger</td><td>1</td><td>&#8377;60</td><br>
+                        <tr><td>2</td><td>&#8377;100</td></tr><br>
+                        <tr><td>3</td><td>&#8377;150</td></tr><br>
+                        <tr><td rowspan="2">Veg-manchuria</td><td>Half</td><td>&#8377;100</td><br>
+                            <tr><td>Full</td><td>&#8377;200</td></tr>
+                            <tr><td colspan="3">Burger & Cool drink&#8377;80</td></tr>
+                </table>
+    </section>
+<!----End of menu-->
+<a href="#top">Back to top</a>
+<!---Footer-->
+<footer>
+  <hr>
+  <p style="text-align: center">
+    ©Copyright 1996 by nobody. All rights reversed.
+  </p>
+</footer>
+<!--End of Footer-->
+    <section class="store hours">
+      <h1 style=color:black;>Leo Restaurent Store Hours</h1>
+      <figure>
+              <img src="Images/salad.jpg" alt="related to salad Image" height="200" width="300">
+              <figcaption> Tasty vegetables salad</figcaption>
+              </figure>
+              <hr>
+              <p>We are open 7 days a week!</p>
+              <p>Sunday-Thurday<br><span style="text-align: center;">11am-11pm</span><br>Friday-Sunday<br>
+                <span style="text-align: center;">11am-11pm</p>
+</section>  
+<a href="#top">Back to top</a>
+<footer>
+  <hr>
+  <p style="text-align: center">
+    ©Copyright 1996 by nobody. All rights reversed.
+  </p>
+</footer>
+<!--- Start Contact--->
+<section class="contact">
+  <form action method="post">
+    <h1>Contact Us</h1>
+    <figure>
+    <img
+      src="Images/food.jpg"
+      alt="related food Image"
+      height="200px"
+      width="300px"
+    />
+    <figcaption>sprouts and nutrients</figcaption>
+    </figure>
+    <h2>Our Contact Form</h2>
+    <fieldset>
+    <legend>Send Us A Message</legend>
+    <p>
+      <label for="Name">Name</label>
+      <input
+        name="Name"
+        id="Name"
+        placeholder="Your Name"
+        autocomplete="on"
+      />
+    </p>
+    <p>
+      <label for="phone">Enter your phone number:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+        required
+      />
+    </p>
+    <p>
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" placeholder="email" />
+    </p>
+
+    <p>
+      <label for="message">Your Message :</label></p>
+      <textarea id="message" name="message" rows="10" cols="50" placeholder="Type your messagehere.."></textarea>
+    </fieldset>
+    <br />
+    <button type="send" value="send">Send</button>
+    <button type="reset" value="reset">Reset</button>
+  </form>
+  <h4> Our Location :</h4>
+  <address>
+    4-173, Geeta nagar<br />
+    Jeedimetla, Qutubullapur<br />
+    Hyderabad<br />
+    Pin:500055<br />
+    <br>
+    phone:<a href="number">555-555-5555</a>
+  </address>
+</section>
+<br>
+  <a href="#top">Back to top</a>
+  <footer>
+    <hr>
+    <p style="text-align: center">
+      ©Copyright 1996 by nobody. All rights reversed.
+    </p>
+  </footer>
+    </body>
+    </html>
